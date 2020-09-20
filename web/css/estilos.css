@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+#index {
+    height: 100%;
+}
+
+#ingresar {
+    position: relative;
+    z-index:0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: lightskyblue;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: lightskyblue;
+    padding: 4px;
+    padding-top: 7px;
+}
+
+#ingresar:hover, #ingresar:focus {
+    background-color: #fff;
+    color:lightskyblue;
+}
+
+#navbar {
+     font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+    color: plum;
+   
+}
+
+#navbar a {
+     font-family: 'Josefin Sans', sans-serif;
+     color: plum;
+}
+
+#navbar a:hover, #navbar a:focus {
+    color: lightskyblue;
+}
+
+#logo {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.btnbuscar {
+    background-color: white;
+    border: 2px solid;
+    border-radius: 5px;
+    color:plum;
+    border-color: plum;
+    padding: 5px;
+}
+
+.btnbuscar:hover, .btnbuscar:focus, #btncomprar:hover, #btncomprar:focus  {
+    background-color: plum;
+    color: white;
+}
+
+#btncomprar {
+    text-decoration: none;
+    border: 1px solid;
+    color: plum;
+    border-color:plum;
+    padding-bottom: 10px;
+}
+
+#boton {
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 8px;
+    color: plum;
+}
+
+#imgprod {
+ transition: transform .1s;    
+}
+
+#imgprod:hover {
+  transform: scale(1.0); 
+}
+
+#prods {
+    margin-top: 90px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#nomProd h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#listaprod {
+    margin-bottom: 20px;
+}
+
+/* carrito */
+
+#tablaCompra {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#GenerarCompra {
+    text-decoration: none;
+    color: plum;
+    border: 1px solid;
+    width: 100%;
+}
